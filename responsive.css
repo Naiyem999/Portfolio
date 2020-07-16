@@ -1,0 +1,224 @@
+@media only screen  and  (max-width:1200px)
+{
+    header h4{
+        top: 68%;
+    }
+}
+@media only screen  and  (max-width:1024px)
+{
+    html{
+        font-size: 57.5%;
+    }
+    header{
+        height: 95vh;
+    }
+    .bio-img-box {
+        margin-top: 1rem;
+    }
+    .row{
+        width: 90%;
+    }
+
+    .about .span_1of_3{
+        margin-left: 2rem;
+
+    }
+    .about .span_1of_2{
+        margin-left: 5rem;
+        width: 60%;
+    }
+    .img-box{
+        height: 90%;
+    }
+    .img-box::after{
+        height: 105%;
+        top: -110%;
+        transform:rotate(-6deg);
+        -webkit-transform:rotate(-6deg);
+        -moz-transform:rotate(-6deg);
+        -ms-transform:rotate(-6deg);
+        -o-transform:rotate(-6deg);
+    }
+    .pack-head span{
+        left: 13rem;
+    }
+    
+}
+@media only screen  and  (max-width:980px)
+{
+    html{
+        font-size: 57.5%;
+    }
+    .logo{
+        font-size: 3rem;
+        margin-left: 0rem;
+    }
+    .main-nav li{
+        margin-left: .5rem;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        padding: 2rem .5rem;
+    }
+    .about .span_1of_3{
+        margin-left: 0;
+    }
+    .about .span_1of_2{
+        margin-left: 2rem;
+        width: 60%;
+    }
+    .pack-head span{
+        left: 12rem;
+    }
+}
+@media only screen  and  (max-width:768px)
+{
+    
+    .main-nav{
+        display: none;
+    }
+    .mobile-menu .fa{
+        display: block;
+    }
+    .about .span_1of_3{
+        width: 100%;
+        align-items: center;
+    }
+    .img-box{
+     
+        text-align: center;
+    }
+    .img-box::after{
+        width: 48%;
+        left: 17rem;
+        text-align: center;
+    }
+    .about .span_1of_2{
+        margin-left: 2rem;
+        width: 100%;
+    }
+    .btn-box{
+        display: block;
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    .skills-banner .span_1_of_2{
+        margin-left: 0;
+    }
+    .service-list{
+        width: 100%;
+    }
+    .service-img-box{
+        width: 80%;
+    }
+    .pack-head span{
+        left: 5rem;
+    }
+}
+    
+@media only screen  and  (max-width:480px){
+    html{
+        font-size: 52.5%;
+    }
+    h1{
+        font-size: 3.5rem;
+    }
+    header{
+        height: 90vh;
+    }
+    header h4{
+        padding-top: 1rem;
+        top: 63%;
+    }
+    .about .span_1of_2{
+        margin-left: 0rem;
+    }
+    .img-box-txt h2{
+        margin-top: 8rem;
+    }
+    .bio-box p{ 
+        font-size: 1.3rem;
+    }
+    .img-box::after{
+        width: 75%;
+        height: 115%;
+        left: 5rem;
+        margin-top: 0rem;
+        top: -115%;
+    }
+    .pack-head span{
+        left: 25rem;
+    }
+    .service-img-box{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .service-section{
+        margin-bottom: 2rem;
+    }
+    .info{
+        margin-left: 0;
+    }
+    .ensr-box{
+        text-align: center;
+    }
+    .ensr-box2{
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .ensr-box3{
+        margin-top: 3rem;
+        text-align: center;
+    }
+    .ensr-box4{
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+}
+@media only screen  and  (max-width:420px){
+    header{
+        height: 65vh;
+    }
+    .img-box::after{
+        width: 90%;
+    }
+}
+@media only screen  and  (max-width:360px){
+    header{
+        height: 70vh;
+    }
+    header h4{
+        padding-top: 0rem;
+        top: 70%;
+    }
+    
+}
+  
+    @media screen and (min-height: 1366px) {
+  
+        header{
+
+            height: 38vh;
+        }
+        header h4{
+            padding-top: 0rem;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
