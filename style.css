@@ -337,11 +337,26 @@ header h4{
     width: 60%;
     margin-left: 10rem;
 }
-.img-box-txt h2{
+.img-box-txt h3{
     padding: 2rem 0;
     color: #333333;
+    font-size: 3.2rem;
+    color: #333;
+    letter-spacing: .1rem;
+    text-align: center;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
 }
-
+.img-box-txt h3::after{
+    content: '';
+    display: block;
+    text-align: center;
+    background: #0B99BC;
+    height: .3rem;
+    width: 10rem;
+    margin: 1rem auto; 
+}
 .img-box-txt p{
     font-size: 1.6rem;
     padding: .5rem 0;
