@@ -347,6 +347,8 @@ header h4{
     margin-top: 2rem;
     text-transform: uppercase;
     font-weight: 600;
+    padding: 2rem 0;
+    color: #333333;
 }
 .img-box-txt h3::after{
     content: '';
