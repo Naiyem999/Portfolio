@@ -1,9 +1,9 @@
-@media only screen  and  (max-width:1200px)
+/* @media only screen  and  (max-width:1200px)
 {
     header h4{
         top: 68%;
     }
-}
+} */
 @media only screen  and  (max-width:1024px)
 {
     html{
@@ -116,6 +116,7 @@
         left: 5rem;
     }
 }
+    
 @media only screen  and  (max-width:480px){
     html{
         font-size: 52.5%;
@@ -126,10 +127,10 @@
     header{
         height: 90vh;
     }
-    header h4{
+    /* header h4{
         padding-top: 1rem;
         top: 63%;
-    }
+    } */
     .about .span_1of_2{
         margin-left: 0rem;
     }
@@ -183,14 +184,14 @@
     .img-box::after{
         width: 90%;
     }
-    header h4{
+    /* header h4{
         top: 57%;
-    }
+    } */
     .pack-head span{
         left: 20rem;
     }
 }
-@media only screen  and  (max-width:415px){
+/* @media only screen  and  (max-width:415px){
     header h4{
         top: 65%;
     }
@@ -199,31 +200,31 @@
     header h4{
         top: 63%;
     }
-}
+} */
 @media only screen  and  (max-width:375px){
-    header h4{
+    /* header h4{
         padding-top: 0rem;
         top: 71%;
-    }
+    } */
 }
 @media only screen  and  (max-width:360px){
     header{
         height: 80vh;
     }
-    header h4{
+    /* header h4{
         padding-top: 0rem;
         top: 60%;
-    }  
+    }   */
 }
 @media only screen  and  (max-width:320px){
-    header h4{
+    /* header h4{
         top: 68%;
-    }
+    } */
     .pack-head span{
         left: 15rem;
     }
 }
-    @media screen and (min-height: 810px) {
+    /* @media screen and (min-height: 810px) {
         header h4{
             top: 68%;
         }
@@ -232,10 +233,12 @@
         }
     }
 
-
-
-
-
+    @media screen and (max-height: 624px) {
+        header h4{
+            top: 55%;
+        }
+        
+    } */
 
 
 
