@@ -211,13 +211,9 @@ header h4{
     position: absolute;
     text-align: center;
     margin: 0;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    -moz-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    -o-transform: translate(-50%,-50%);
+    display: block;
+    left: 0rem;
+    width: 100%;
     padding-bottom: 2rem;
 }
 .social-link{
